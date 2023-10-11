@@ -1,0 +1,67 @@
+/* Styles for the body element */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styles for the header */
+  .judul {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  /* Styles for the form container */
+  .form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 400px;
+  }
+  
+  /* Styles for labels */
+  .input {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+  }
+  
+  /* Styles for input fields */
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Styles for buttons */
+  .btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-right: 10px;
+  }
+  
+  /* Styles for the "Hasil" div */
+  .hasil {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #fff;
+    min-height: 100px;
+  }
