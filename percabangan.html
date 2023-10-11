@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript IF Statement</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="judul">Pengolahan Nilai Menggunakan Javascript</h1>
+    <form class="nilai">
+        Nilai: <input type="number" id="nilaipw" name="nilaipw" onkeyup="Keterangan()" />
+    </form>
+       
+    <label class="label">Keterangan:</label>
+    <span style="margin-left: -50px; margin-top: -20px;" id="nilaiKeterangan"></span>
+    <br>
+
+    <script type="text/javascript">
+        function Keterangan() {
+            var nilaipw = document.getElementById("nilaipw").value;
+            var keteranganSpan = document.getElementById("nilaiKeterangan");
+
+            if (nilaipw > 90) {
+                keteranganSpan.innerHTML = "A";
+            } else if (nilaipw > 80) {
+                keteranganSpan.innerHTML = "B";
+            } else if (nilaipw > 70) {
+                keteranganSpan.innerHTML = "C";
+            } else if (nilaipw > 50) {
+                keteranganSpan.innerHTML = "D";
+            } else {
+                keteranganSpan.innerHTML = "E";
+            }
+        }
+    </script>
+</body>
+</html>
